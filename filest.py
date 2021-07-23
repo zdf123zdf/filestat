@@ -72,7 +72,7 @@ def file_analysis():
     return table
 
 
-if __name__ == '__main__':
+def main():
     try:
         dir = sys.argv[1]
         file_get(dir)
